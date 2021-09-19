@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "Maidnukos"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName = "AddErHaoYaoJi"]/recipeUsers</xpath>
+      <value>
+        <li>Maidnukos</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "ZhanXiong"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName = "AddErHaoYaoJi"]/recipeUsers</xpath>
+      <value>
+        <li>GoldChicken</li>
+        <li>CIWSDaXiongMao</li>
+        <li>ZhanXiong</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "Maidnukos"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName = "AddSanHaoYaoJi"]/recipeUsers</xpath>
+      <value>
+        <li>Maidnukos</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "ZhanXiong"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName = "AddSanHaoYaoJi"]/recipeUsers</xpath>
+      <value>
+        <li>GoldChicken</li>
+        <li>CIWSDaXiongMao</li>
+        <li>ZhanXiong</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "Maidnukos"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName = "AddShiYiHaoYaoJi"]/recipeUsers</xpath>
+      <value>
+        <li>Maidnukos</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName = "ZhanXiong"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName = "AddShiYiHaoYaoJi"]/recipeUsers</xpath>
+      <value>
+        <li>GoldChicken</li>
+        <li>CIWSDaXiongMao</li>
+        <li>ZhanXiong</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>

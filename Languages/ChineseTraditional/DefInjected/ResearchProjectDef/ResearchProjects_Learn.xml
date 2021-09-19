@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CIWS_Learn.label>近防系統-學習</CIWS_Learn.label>
+  <CIWS_Learn.description>學無止境，努力吧少年。</CIWS_Learn.description>
+  <CIWS_LearnShooting.label>近防系統-射擊課程</CIWS_LearnShooting.label>
+  <CIWS_LearnShooting.description>三點一線懂嗎。</CIWS_LearnShooting.description>
+  <CIWS_LearnMelee.label>近防系統-格鬥課程</CIWS_LearnMelee.label>
+  <CIWS_LearnMelee.description>一寸長一寸強知道嗎。</CIWS_LearnMelee.description>
+  <CIWS_LearnConstruction.label>近防系統-建築課程</CIWS_LearnConstruction.label>
+  <CIWS_LearnConstruction.description>萬丈高樓平地起，先學打地基吧。</CIWS_LearnConstruction.description>
+  <CIWS_LearnMining.label>近防系統-採礦課程</CIWS_LearnMining.label>
+  <CIWS_LearnMining.description>採礦需要耐心，先把這塊煤洗乾淨吧。</CIWS_LearnMining.description>
+  <CIWS_LearnCooking.label>近防系統-烹飪課程</CIWS_LearnCooking.label>
+  <CIWS_LearnCooking.description>餓死的廚子三百斤，前途是光明的。</CIWS_LearnCooking.description>
+  <CIWS_LearnPlants.label>近防系統-種植課程</CIWS_LearnPlants.label>
+  <CIWS_LearnPlants.description>面朝黃土背朝天，種地也要學習先。</CIWS_LearnPlants.description>
+  <CIWS_LearnAnimals.label>近防系統-馴獸課程</CIWS_LearnAnimals.label>
+  <CIWS_LearnAnimals.description>相當龍騎士的來。</CIWS_LearnAnimals.description>
+  <CIWS_LearnCrafting.label>近防系統-手工課程</CIWS_LearnCrafting.label>
+  <CIWS_LearnCrafting.description>給我一塊泥巴，我給你搓個老婆。</CIWS_LearnCrafting.description>
+  <CIWS_LearnArtistic.label>近防系统-藝術課程</CIWS_LearnArtistic.label>
+  <CIWS_LearnArtistic.description>藝術來源於生活而高於生活。</CIWS_LearnArtistic.description>
+  <CIWS_LearnMedicine.label>近防系統-醫療課程</CIWS_LearnMedicine.label>
+  <CIWS_LearnMedicine.description>醫生治病不治命。</CIWS_LearnMedicine.description>
+  <CIWS_LearnSocial.label>近防系統-社交課程</CIWS_LearnSocial.label>
+  <CIWS_LearnSocial.description>人心難測，海水難量。</CIWS_LearnSocial.description>
+</LanguageData>

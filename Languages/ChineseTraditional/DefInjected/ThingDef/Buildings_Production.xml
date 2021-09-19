@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Non-standard work buildings -->
+  <CIWSDesk.label>書桌</CIWSDesk.label>
+  <CIWSDesk.description>書桌，學習的地方。</CIWSDesk.description>
+  <CIWSDesk_Blueprint.label>書桌 (藍圖)</CIWSDesk_Blueprint.label>
+  <CIWSDesk_Blueprint_Install.label>書桌 (藍圖)</CIWSDesk_Blueprint_Install.label>
+  <CIWSDesk_Frame.label>書桌 (建造中)</CIWSDesk_Frame.label>
+  <CIWSDesk_Frame.description>書桌，學習的地方。</CIWSDesk_Frame.description>
+</LanguageData>

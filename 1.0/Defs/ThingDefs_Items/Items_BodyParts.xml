@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>CIWSNamiAI</defName>
+    <label>纳米机器人</label>
+    <description>纳米级的通用机器人，在血液中工作，能增强宿主的意识，视觉，操作及血液过滤。</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>CIWSFanyiJiaya</defName>
+    <label>语言翻译假牙</label>
+    <description>在一颗普通的假牙里面植入了微型语言翻译设备，砍价利器。</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3500</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase">
+    <defName>CIWSZhinengTui</defName>
+    <label>智能仿生腿</label>
+    <description>结合人体工学和罗罗公司出品的MB62引擎制作而成，动力强劲。</description>
+    <graphicData>
+      <texPath>Things/Item/Health/HealthItemBionic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2000</MarketValue>
+      <Mass>15</Mass>
+    </statBases>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Hai3Yetai.label>Helium 3 fuel tank</Hai3Yetai.label>
+  <Hai3Yetai.description>New energy can be used for nuclear fusion fuel. High pressure is dangerous and difficult to preserve.</Hai3Yetai.description>
+  <Fuhefei.label>compound fertilizer</Fuhefei.label>
+  <Fuhefei.description>compound fertilizer.</Fuhefei.description>
+  <ErHaoYaoJi.label>Pharmacy No. 1</ErHaoYaoJi.label>
+  <ErHaoYaoJi.description>Potion No. 1.</ErHaoYaoJi.description>
+  <ErHaoYaoJi.comps.1.useLabel>Drink</ErHaoYaoJi.comps.1.useLabel>
+  <SanHaoYaoJi.label>Pharmacy No. 2</SanHaoYaoJi.label>
+  <SanHaoYaoJi.description>Potion No. 2.</SanHaoYaoJi.description>
+  <SanHaoYaoJi.comps.1.useLabel>Drink</SanHaoYaoJi.comps.1.useLabel>
+  <ShiYiHaoYaoJi.label>Pharmacy No. 3</ShiYiHaoYaoJi.label>
+  <ShiYiHaoYaoJi.description>Potion No. 3.</ShiYiHaoYaoJi.description>
+  <ShiYiHaoYaoJi.comps.1.useLabel>Drink</ShiYiHaoYaoJi.comps.1.useLabel>
+  <BaHaoYaoJi.label>Pharmacy No. 4</BaHaoYaoJi.label>
+  <BaHaoYaoJi.description>Potion No. 4.</BaHaoYaoJi.description>
+  <BaHaoYaoJi.comps.1.useLabel>Drink</BaHaoYaoJi.comps.1.useLabel>
+  <WuHaoYaoJi.label>Pharmacy No. 5</WuHaoYaoJi.label>
+  <WuHaoYaoJi.description>Potion No. 5.</WuHaoYaoJi.description>
+  <WuHaoYaoJi.comps.1.useLabel>Drink</WuHaoYaoJi.comps.1.useLabel>
+  <CIWSSands.label>Building sand</CIWSSands.label>
+  <CIWSSands.description>A sand made of cement raw material.</CIWSSands.description>
+  <ShuiNiShengLiao.label>cement raw meal</ShuiNiShengLiao.label>
+  <ShuiNiShengLiao.description>Cement raw material.</ShuiNiShengLiao.description>
+  <CIWS_ShuiNi.label>cement</CIWS_ShuiNi.label>
+  <CIWS_ShuiNi.description>For building crownnatural cement.</CIWS_ShuiNi.description>
+  <CIWS_ShuiNi.stuffProps.stuffAdjective>cement</CIWS_ShuiNi.stuffProps.stuffAdjective>
+  <CIWS_XuKeZheng.label>Production license (Snow White's new clothes)</CIWS_XuKeZheng.label>
+  <CIWS_XuKeZheng.description>Authorize the making of Snow White's new clothes, one coat one, strict supervision, refusing the Shanzhai, and starting from me.</CIWS_XuKeZheng.description>
+  <CIWS_YanJiangYuKouCai.label>Speech and eloquence</CIWS_YanJiangYuKouCai.label>
+  <CIWS_YanJiangYuKouCai.description>Speech and eloquence pages, reading in front of the mirror can increase the ability to communicate, thanks to lolidrop's picture support.</CIWS_YanJiangYuKouCai.description>
+  <Shimoxi.label>Graphene</Shimoxi.label>
+  <Shimoxi.description>Graphene powder, a new type of material.</Shimoxi.description>
+  <Shimoxi.stuffProps.stuffAdjective>Graphene</Shimoxi.stuffProps.stuffAdjective>
+  <ShimoxiZhiwu.label>Graphene fabric</ShimoxiZhiwu.label>
+  <ShimoxiZhiwu.description>A new type of fabric made of graphene powder.</ShimoxiZhiwu.description>
+  <ShimoxiZhiwu.stuffProps.stuffAdjective>Graphene fabric</ShimoxiZhiwu.stuffProps.stuffAdjective>
+  <!--<Hai3Yetai.comps.1.useLabel>activation</Hai3Yetai.comps.1.useLabel>-->
+</LanguageData>

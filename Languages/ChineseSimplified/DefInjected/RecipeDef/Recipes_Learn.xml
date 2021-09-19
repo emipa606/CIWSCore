@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <LearnShooting.label>学习射击</LearnShooting.label>
+  <LearnShooting.description>学习射击。</LearnShooting.description>
+  <LearnShooting.jobString>正在学习射击。</LearnShooting.jobString>
+  <LearnMelee.label>学习格斗</LearnMelee.label>
+  <LearnMelee.description>学习格斗。</LearnMelee.description>
+  <LearnMelee.jobString>正在学习格斗。</LearnMelee.jobString>
+  <LearnConstruction.label>学习建造</LearnConstruction.label>
+  <LearnConstruction.description>学习建造。</LearnConstruction.description>
+  <LearnConstruction.jobString>正在学习建造。</LearnConstruction.jobString>
+  <LearnMining.label>学习采矿</LearnMining.label>
+  <LearnMining.description>学习采矿。</LearnMining.description>
+  <LearnMining.jobString>正在学习采矿。</LearnMining.jobString>
+  <LearnCooking.label>学习烹饪</LearnCooking.label>
+  <LearnCooking.description>学习烹饪。</LearnCooking.description>
+  <LearnCooking.jobString>正在学习烹饪。</LearnCooking.jobString>
+  <LearnPlants.label>学习种植</LearnPlants.label>
+  <LearnPlants.description>学习种植。</LearnPlants.description>
+  <LearnPlants.jobString>正在学习种植。</LearnPlants.jobString>
+  <LearnAnimals.label>学习驯兽</LearnAnimals.label>
+  <LearnAnimals.description>学习驯兽。</LearnAnimals.description>
+  <LearnAnimals.jobString>正在学习驯兽。</LearnAnimals.jobString>
+  <LearnCrafting.label>学习手工</LearnCrafting.label>
+  <LearnCrafting.description>学习手工。</LearnCrafting.description>
+  <LearnCrafting.jobString>正在学习手工。</LearnCrafting.jobString>
+  <LearnArtistic.label>学习艺术</LearnArtistic.label>
+  <LearnArtistic.description>学习艺术。</LearnArtistic.description>
+  <LearnArtistic.jobString>正在学习艺术。</LearnArtistic.jobString>
+  <LearnMedicine.label>学习医疗</LearnMedicine.label>
+  <LearnMedicine.description>学习医疗。</LearnMedicine.description>
+  <LearnMedicine.jobString>正在学习医疗。</LearnMedicine.jobString>
+  <LearnSocial.label>学习社交</LearnSocial.label>
+  <LearnSocial.description>学习社交。</LearnSocial.description>
+  <LearnSocial.jobString>正在学习社交。</LearnSocial.jobString>
+  <LearnIntellectual.label>学习知识</LearnIntellectual.label>
+  <LearnIntellectual.description>学习知识。</LearnIntellectual.description>
+  <LearnIntellectual.jobString>正在学习知识。</LearnIntellectual.jobString>
+</LanguageData>

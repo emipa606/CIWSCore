@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Medicine -->
+  <CIWSSanQiFen.label>三七粉</CIWSSanQiFen.label>
+  <CIWSSanQiFen.description>“三七粉”是植物三七的根茎制品，是用三七主根打成的粉。</CIWSSanQiFen.description>
+  <CIWSBaiYaoFen.label>白药粉</CIWSBaiYaoFen.label>
+  <CIWSBaiYaoFen.description>用三七粉等材料秘制的粉末，止血效果优秀，虽然不及闪耀世界药物，但是胜在制作方便。</CIWSBaiYaoFen.description>
+</LanguageData>

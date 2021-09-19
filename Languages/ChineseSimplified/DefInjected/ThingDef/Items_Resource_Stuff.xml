@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Hai3Yetai.label>氦3燃料罐</Hai3Yetai.label>
+  <Hai3Yetai.description>新能源，可以用于核聚变燃料。高压危险，难以保存。</Hai3Yetai.description>
+  <Fuhefei.label>复合肥</Fuhefei.label>
+  <Fuhefei.description>复合肥。</Fuhefei.description>
+  <ErHaoYaoJi.label>二号药剂</ErHaoYaoJi.label>
+  <ErHaoYaoJi.description>可以治疗殖民者和动物各种外伤和疾病。</ErHaoYaoJi.description>
+  <ErHaoYaoJi.comps.1.useLabel>饮用</ErHaoYaoJi.comps.1.useLabel>
+  <ShiYiHaoYaoJi.label>十一号药剂</ShiYiHaoYaoJi.label>
+  <ShiYiHaoYaoJi.description>活在最佳年龄。感谢黑衣☆诡夜的贴图支持。</ShiYiHaoYaoJi.description>
+  <ShiYiHaoYaoJi.comps.1.useLabel>饮用</ShiYiHaoYaoJi.comps.1.useLabel>
+  <!-- <ThingDef ParentName="ResourceBase">
+		<defName>BaHaoYaoJi</defName>
+		<label>八号药剂</label>
+		<thingClass>ThingWithComps</thingClass>
+		<description>性别不是问题。</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ErHaoYaoJi</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>20</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<MaxHitPoints>60</MaxHitPoints>
+			<Mass>0.2</Mass>
+			<Beauty>2</Beauty>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>饮用</useLabel>
+				<useDuration>300</useDuration>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>CIWSMedicinal.Denaturation</compClass>
+			</li>
+			<li Class="CompProperties_UseEffect">
+				<compClass>CompUseEffect_DestroySelf</compClass>
+			</li>
+		</comps>
+		<thingSetMakerTags>
+			<li>RewardSpecial</li>
+		</thingSetMakerTags>
+	</ThingDef> -->
+  <WuHaoYaoJi.label>五号药剂</WuHaoYaoJi.label>
+  <WuHaoYaoJi.description>五号药剂。</WuHaoYaoJi.description>
+  <WuHaoYaoJi.comps.1.useLabel>激活</WuHaoYaoJi.comps.1.useLabel>
+  <CIWSSands.label>建筑沙</CIWSSands.label>
+  <CIWSSands.description>制作水泥生料的沙子。</CIWSSands.description>
+  <ShuiNiShengLiao.label>水泥生料</ShuiNiShengLiao.label>
+  <ShuiNiShengLiao.description>水泥生料。</ShuiNiShengLiao.description>
+  <CIWS_ShuiNi.label>水泥</CIWS_ShuiNi.label>
+  <CIWS_ShuiNi.description>用于建筑女墙的水泥。</CIWS_ShuiNi.description>
+  <CIWS_ShuiNi.stuffProps.stuffAdjective>水泥</CIWS_ShuiNi.stuffProps.stuffAdjective>
+  <CIWS_XuKeZheng.label>生产许可证（白雪公主的新衣）</CIWS_XuKeZheng.label>
+  <CIWS_XuKeZheng.description>授权制作白雪公主的新衣，一衣一号，严格监管，拒绝山寨，从我做起。</CIWS_XuKeZheng.description>
+  <CIWS_YanJiangYuKouCai.label>演讲与口才残页</CIWS_YanJiangYuKouCai.label>
+  <CIWS_YanJiangYuKouCai.description>演讲与口才残页，在镜子前阅读可以增加交际能力，感谢lolidrop的贴图支持。</CIWS_YanJiangYuKouCai.description>
+  <Shimoxi.label>石墨烯</Shimoxi.label>
+  <Shimoxi.description>石墨烯粉末，新型材料。</Shimoxi.description>
+  <Shimoxi.stuffProps.stuffAdjective>石墨烯</Shimoxi.stuffProps.stuffAdjective>
+  <ShimoxiZhiwu.label>石墨烯织物</ShimoxiZhiwu.label>
+  <ShimoxiZhiwu.description>石墨烯粉末制作的新型织物。</ShimoxiZhiwu.description>
+  <ShimoxiZhiwu.stuffProps.stuffAdjective>石墨烯织物</ShimoxiZhiwu.stuffProps.stuffAdjective>
+  <!--<ShengMingErHao.label>二号药剂</ShengMingErHao.label>-->
+  <!--<ShengMingErHao.description>二号药剂。</ShengMingErHao.description>-->
+  <!--<ShengMingErHao.comps.1.useLabel>饮用</ShengMingErHao.comps.1.useLabel>-->
+  <!--<Hai3Yetai.comps.1.useLabel>激活</Hai3Yetai.comps.1.useLabel>-->
+</LanguageData>
