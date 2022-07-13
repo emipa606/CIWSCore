@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>CIWS_Core (Continued)</name>
   <packageId>Mlie.CIWSCore</packageId>
@@ -22,6 +22,10 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1493484469
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/CIWSCore][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/kbYsPSO.png[/img][/td]
+        [td][img]https://i.imgur.com/6KqTKks.png[/img][/td]
     [/tr]
 [/table]
 	
@@ -74,4 +78,3 @@ C. added Caravan: near defense Trading Company
 [/list]
 </description>
 </ModMetaData>
-
