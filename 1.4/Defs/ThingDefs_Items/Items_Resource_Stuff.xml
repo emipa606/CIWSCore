@@ -80,9 +80,7 @@
       <li Class="CompProperties_UseEffect">
         <compClass>CompUseEffect_FixWorstHealthCondition</compClass>
       </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_DestroySelf</compClass>
-      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
     </comps>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
@@ -124,9 +122,7 @@
       <li Class="CompProperties_UseEffect">
         <compClass>CIWSMedicinal.CIWS_CompUseEffect_FixWorstHealthCondition</compClass>
       </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_DestroySelf</compClass>
-      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
     </comps>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
@@ -168,9 +164,7 @@
       <li Class="CompProperties_UseEffect">
         <compClass>CIWSMedicinal.AgePP</compClass>
       </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_DestroySelf</compClass>
-      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
     </comps>
     <thingSetMakerTags>
       <li>RewardSpecial</li>
@@ -212,9 +206,7 @@
       <li Class="CompProperties_UseEffect">
         <compClass>CIWSMedicinal.Denaturation</compClass>
       </li>
-      <li Class="CompProperties_UseEffect">
-        <compClass>CompUseEffect_DestroySelf</compClass>
-      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
     </comps>
     <thingSetMakerTags>
       <li>RewardSpecial</li>

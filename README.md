@@ -61,3 +61,4 @@ C. added Caravan: near defense Trading Company
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2606506346]Last updated 2022-12-06
