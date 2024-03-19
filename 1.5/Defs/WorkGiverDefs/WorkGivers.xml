@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>DoBillsCIWSLearn</defName>
+    <label>学习</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Research</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>CIWSDesk</li>
+    </fixedBillGiverDefs>
+    <verb>research</verb>
+    <gerund>学习于</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

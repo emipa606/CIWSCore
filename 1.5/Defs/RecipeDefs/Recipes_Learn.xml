@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>LearnShooting</defName>
+    <label>学习射击</label>
+    <description>学习射击。</description>
+    <jobString>正在学习射击。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <!-- <requiredGiverWorkType>Cooking</requiredGiverWorkType> -->
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Shooting</workSkill>
+    <skillRequirements>
+      <Shooting>1</Shooting>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnShooting</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnMelee</defName>
+    <label>学习格斗</label>
+    <description>学习格斗。</description>
+    <jobString>正在学习格斗。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Melee</workSkill>
+    <skillRequirements>
+      <Melee>1</Melee>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnMelee</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnConstruction</defName>
+    <label>学习建造</label>
+    <description>学习建造。</description>
+    <jobString>正在学习建造。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Construction</workSkill>
+    <skillRequirements>
+      <Construction>1</Construction>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnConstruction</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnMining</defName>
+    <label>学习采矿</label>
+    <description>学习采矿。</description>
+    <jobString>正在学习采矿。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Mining</workSkill>
+    <skillRequirements>
+      <Mining>1</Mining>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnMining</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnCooking</defName>
+    <label>学习烹饪</label>
+    <description>学习烹饪。</description>
+    <jobString>正在学习烹饪。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Cooking</workSkill>
+    <skillRequirements>
+      <Cooking>1</Cooking>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnCooking</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnPlants</defName>
+    <label>学习种植</label>
+    <description>学习种植。</description>
+    <jobString>正在学习种植。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Plants</workSkill>
+    <skillRequirements>
+      <Plants>1</Plants>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnPlants</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnAnimals</defName>
+    <label>学习驯兽</label>
+    <description>学习驯兽。</description>
+    <jobString>正在学习驯兽。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Animals</workSkill>
+    <skillRequirements>
+      <Animals>1</Animals>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnAnimals</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnCrafting</defName>
+    <label>学习手工</label>
+    <description>学习手工。</description>
+    <jobString>正在学习手工。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnCrafting</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnArtistic</defName>
+    <label>学习艺术</label>
+    <description>学习艺术。</description>
+    <jobString>正在学习艺术。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Artistic</workSkill>
+    <skillRequirements>
+      <Artistic>1</Artistic>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnArtistic</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnMedicine</defName>
+    <label>学习医疗</label>
+    <description>学习医疗。</description>
+    <jobString>正在学习医疗。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Medicine</workSkill>
+    <skillRequirements>
+      <Medicine>1</Medicine>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnMedicine</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnSocial</defName>
+    <label>学习社交</label>
+    <description>学习社交。</description>
+    <jobString>正在学习社交。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Social</workSkill>
+    <skillRequirements>
+      <Social>1</Social>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <researchPrerequisite>
+      <li>CIWS_LearnSocial</li>
+    </researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>LearnIntellectual</defName>
+    <label>学习知识</label>
+    <description>学习知识。</description>
+    <jobString>正在学习知识。</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Research</effectWorking>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <!--目标数量调整-->
+    <workAmount>500</workAmount>
+    <workSkillLearnFactor>25</workSkillLearnFactor>
+    <!--技能学习加成-->
+    <workSkill>Intellectual</workSkill>
+    <skillRequirements>
+      <Intellectual>1</Intellectual>
+    </skillRequirements>
+    <ingredients />
+    <products />
+    <!-- 		<researchPrerequisite>
+			<li>CIWS_LearnIntellectual</li>
+		</researchPrerequisite> -->
+  </RecipeDef>
+</Defs>

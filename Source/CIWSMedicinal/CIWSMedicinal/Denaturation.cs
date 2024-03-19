@@ -44,6 +44,6 @@ public class Denaturation : CompUseEffect
             PawnHairColors.RandomHairColor(pawn, pawn.story.SkinColor, pawn.ageTracker.AgeBiologicalYears);
         pawn.story.hairDef = PawnStyleItemChooser.RandomHairFor(pawn);
         pawn.story.bodyType = pawn.gender != Gender.Female ? BodyTypeDefOf.Male : BodyTypeDefOf.Female;
-        pawn.Drawer.renderer.graphics.ResolveAllGraphics();
+        pawn.Drawer.renderer.SetAllGraphicsDirty();
     }
 }
