@@ -11,12 +11,12 @@ public class Denaturation : CompUseEffect
         {
             case Gender.Male:
                 pawn.gender = Gender.Female;
-                RefreshH(pawn);
+                refreshH(pawn);
                 Messages.Message("美丽的女性！", MessageTypeDefOf.PositiveEvent);
                 break;
             case Gender.Female:
                 pawn.gender = Gender.Male;
-                RefreshH(pawn);
+                refreshH(pawn);
                 Messages.Message("强壮的男性！", MessageTypeDefOf.PositiveEvent);
                 break;
             default:
@@ -25,7 +25,7 @@ public class Denaturation : CompUseEffect
         }
     }
 
-    public static void RefreshH(Pawn pawn)
+    private static void refreshH(Pawn pawn)
     {
         if (!pawn.RaceProps.Humanlike)
         {

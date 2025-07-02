@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make white powder -->
+  <Make_CIWSBaiYaoFen.label>make white powder</Make_CIWSBaiYaoFen.label>
+  <!-- EN: Make a white powder. -->
+  <Make_CIWSBaiYaoFen.description>Make a white powder.</Make_CIWSBaiYaoFen.description>
+  <!-- EN: Making white powder. -->
+  <Make_CIWSBaiYaoFen.jobString>Making white powder.</Make_CIWSBaiYaoFen.jobString>
+</LanguageData>

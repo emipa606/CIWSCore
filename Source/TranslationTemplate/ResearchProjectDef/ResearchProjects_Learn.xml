@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 近防系统-学习 -->
+  <CIWS_Learn.label>近防系统-学习</CIWS_Learn.label>
+  <!-- EN: 学无止境，努力吧少年。 -->
+  <CIWS_Learn.description>学无止境，努力吧少年。</CIWS_Learn.description>
+  <!-- EN: 近防系统-驯兽课程 -->
+  <CIWS_LearnAnimals.label>近防系统-驯兽课程</CIWS_LearnAnimals.label>
+  <!-- EN: 相当龙骑士的来。 -->
+  <CIWS_LearnAnimals.description>相当龙骑士的来。</CIWS_LearnAnimals.description>
+  <!-- EN: 近防系统-艺术课程 -->
+  <CIWS_LearnArtistic.label>近防系统-艺术课程</CIWS_LearnArtistic.label>
+  <!-- EN: 艺术来源于生活而高于生活。 -->
+  <CIWS_LearnArtistic.description>艺术来源于生活而高于生活。</CIWS_LearnArtistic.description>
+  <!-- EN: 近防系统-建筑课程 -->
+  <CIWS_LearnConstruction.label>近防系统-建筑课程</CIWS_LearnConstruction.label>
+  <!-- EN: 万丈高楼平地起，先学打地基吧。 -->
+  <CIWS_LearnConstruction.description>万丈高楼平地起，先学打地基吧。</CIWS_LearnConstruction.description>
+  <!-- EN: 近防系统-烹饪课程 -->
+  <CIWS_LearnCooking.label>近防系统-烹饪课程</CIWS_LearnCooking.label>
+  <!-- EN: 饿死的厨子三百斤，前途是光明的。 -->
+  <CIWS_LearnCooking.description>饿死的厨子三百斤，前途是光明的。</CIWS_LearnCooking.description>
+  <!-- EN: 近防系统-手工课程 -->
+  <CIWS_LearnCrafting.label>近防系统-手工课程</CIWS_LearnCrafting.label>
+  <!-- EN: 给我一块泥巴，我给你搓个老婆。 -->
+  <CIWS_LearnCrafting.description>给我一块泥巴，我给你搓个老婆。</CIWS_LearnCrafting.description>
+  <!-- EN: 近防系统-医疗课程 -->
+  <CIWS_LearnMedicine.label>近防系统-医疗课程</CIWS_LearnMedicine.label>
+  <!-- EN: 医生治病不治命。 -->
+  <CIWS_LearnMedicine.description>医生治病不治命。</CIWS_LearnMedicine.description>
+  <!-- EN: 近防系统-格斗课程 -->
+  <CIWS_LearnMelee.label>近防系统-格斗课程</CIWS_LearnMelee.label>
+  <!-- EN: 一寸长一寸强知道吗。 -->
+  <CIWS_LearnMelee.description>一寸长一寸强知道吗。</CIWS_LearnMelee.description>
+  <!-- EN: 近防系统-采矿课程 -->
+  <CIWS_LearnMining.label>近防系统-采矿课程</CIWS_LearnMining.label>
+  <!-- EN: 采矿需要耐心，先把这块煤洗干净吧。 -->
+  <CIWS_LearnMining.description>采矿需要耐心，先把这块煤洗干净吧。</CIWS_LearnMining.description>
+  <!-- EN: 近防系统-种植课程 -->
+  <CIWS_LearnPlants.label>近防系统-种植课程</CIWS_LearnPlants.label>
+  <!-- EN: 面朝黄土背朝天，种地也要学习先。 -->
+  <CIWS_LearnPlants.description>面朝黄土背朝天，种地也要学习先。</CIWS_LearnPlants.description>
+  <!-- EN: 近防系统-射击课程 -->
+  <CIWS_LearnShooting.label>近防系统-射击课程</CIWS_LearnShooting.label>
+  <!-- EN: 三点一线懂吗。 -->
+  <CIWS_LearnShooting.description>三点一线懂吗。</CIWS_LearnShooting.description>
+  <!-- EN: 近防系统-社交课程 -->
+  <CIWS_LearnSocial.label>近防系统-社交课程</CIWS_LearnSocial.label>
+  <!-- EN: 人心难测，海水难量。 -->
+  <CIWS_LearnSocial.description>人心难测，海水难量。</CIWS_LearnSocial.description>
+</LanguageData>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 学习驯兽 -->
+  <LearnAnimals.label>学习驯兽</LearnAnimals.label>
+  <!-- EN: 学习驯兽。 -->
+  <LearnAnimals.description>学习驯兽。</LearnAnimals.description>
+  <!-- EN: 正在学习驯兽。 -->
+  <LearnAnimals.jobString>正在学习驯兽。</LearnAnimals.jobString>
+  <!-- EN: 学习艺术 -->
+  <LearnArtistic.label>学习艺术</LearnArtistic.label>
+  <!-- EN: 学习艺术。 -->
+  <LearnArtistic.description>学习艺术。</LearnArtistic.description>
+  <!-- EN: 正在学习艺术。 -->
+  <LearnArtistic.jobString>正在学习艺术。</LearnArtistic.jobString>
+  <!-- EN: 学习建造 -->
+  <LearnConstruction.label>学习建造</LearnConstruction.label>
+  <!-- EN: 学习建造。 -->
+  <LearnConstruction.description>学习建造。</LearnConstruction.description>
+  <!-- EN: 正在学习建造。 -->
+  <LearnConstruction.jobString>正在学习建造。</LearnConstruction.jobString>
+  <!-- EN: 学习烹饪 -->
+  <LearnCooking.label>学习烹饪</LearnCooking.label>
+  <!-- EN: 学习烹饪。 -->
+  <LearnCooking.description>学习烹饪。</LearnCooking.description>
+  <!-- EN: 正在学习烹饪。 -->
+  <LearnCooking.jobString>正在学习烹饪。</LearnCooking.jobString>
+  <!-- EN: 学习手工 -->
+  <LearnCrafting.label>学习手工</LearnCrafting.label>
+  <!-- EN: 学习手工。 -->
+  <LearnCrafting.description>学习手工。</LearnCrafting.description>
+  <!-- EN: 正在学习手工。 -->
+  <LearnCrafting.jobString>正在学习手工。</LearnCrafting.jobString>
+  <!-- EN: 学习知识 -->
+  <LearnIntellectual.label>学习知识</LearnIntellectual.label>
+  <!-- EN: 学习知识。 -->
+  <LearnIntellectual.description>学习知识。</LearnIntellectual.description>
+  <!-- EN: 正在学习知识。 -->
+  <LearnIntellectual.jobString>正在学习知识。</LearnIntellectual.jobString>
+  <!-- EN: 学习医疗 -->
+  <LearnMedicine.label>学习医疗</LearnMedicine.label>
+  <!-- EN: 学习医疗。 -->
+  <LearnMedicine.description>学习医疗。</LearnMedicine.description>
+  <!-- EN: 正在学习医疗。 -->
+  <LearnMedicine.jobString>正在学习医疗。</LearnMedicine.jobString>
+  <!-- EN: 学习格斗 -->
+  <LearnMelee.label>学习格斗</LearnMelee.label>
+  <!-- EN: 学习格斗。 -->
+  <LearnMelee.description>学习格斗。</LearnMelee.description>
+  <!-- EN: 正在学习格斗。 -->
+  <LearnMelee.jobString>正在学习格斗。</LearnMelee.jobString>
+  <!-- EN: 学习采矿 -->
+  <LearnMining.label>学习采矿</LearnMining.label>
+  <!-- EN: 学习采矿。 -->
+  <LearnMining.description>学习采矿。</LearnMining.description>
+  <!-- EN: 正在学习采矿。 -->
+  <LearnMining.jobString>正在学习采矿。</LearnMining.jobString>
+  <!-- EN: 学习种植 -->
+  <LearnPlants.label>学习种植</LearnPlants.label>
+  <!-- EN: 学习种植。 -->
+  <LearnPlants.description>学习种植。</LearnPlants.description>
+  <!-- EN: 正在学习种植。 -->
+  <LearnPlants.jobString>正在学习种植。</LearnPlants.jobString>
+  <!-- EN: 学习射击 -->
+  <LearnShooting.label>学习射击</LearnShooting.label>
+  <!-- EN: 学习射击。 -->
+  <LearnShooting.description>学习射击。</LearnShooting.description>
+  <!-- EN: 正在学习射击。 -->
+  <LearnShooting.jobString>正在学习射击。</LearnShooting.jobString>
+  <!-- EN: 学习社交 -->
+  <LearnSocial.label>学习社交</LearnSocial.label>
+  <!-- EN: 学习社交。 -->
+  <LearnSocial.description>学习社交。</LearnSocial.description>
+  <!-- EN: 正在学习社交。 -->
+  <LearnSocial.jobString>正在学习社交。</LearnSocial.jobString>
+</LanguageData>

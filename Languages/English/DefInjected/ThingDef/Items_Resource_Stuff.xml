@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Hai3Yetai.label>Helium 3 fuel tank</Hai3Yetai.label>
   <Hai3Yetai.description>New energy can be used for nuclear fusion fuel. High pressure is dangerous and difficult to preserve.</Hai3Yetai.description>
@@ -33,8 +33,5 @@
   <Shimoxi.label>Graphene</Shimoxi.label>
   <Shimoxi.description>Graphene powder, a new type of material.</Shimoxi.description>
   <Shimoxi.stuffProps.stuffAdjective>Graphene</Shimoxi.stuffProps.stuffAdjective>
-  <ShimoxiZhiwu.label>Graphene fabric</ShimoxiZhiwu.label>
-  <ShimoxiZhiwu.description>A new type of fabric made of graphene powder.</ShimoxiZhiwu.description>
-  <ShimoxiZhiwu.stuffProps.stuffAdjective>Graphene fabric</ShimoxiZhiwu.stuffProps.stuffAdjective>
   <!--<Hai3Yetai.comps.1.useLabel>activation</Hai3Yetai.comps.1.useLabel>-->
 </LanguageData>

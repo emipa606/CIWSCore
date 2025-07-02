@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 批量制作素食粗饲料 -->
+  <Make_CIWSHundredVegetarianKibble.label>批量制作素食粗饲料</Make_CIWSHundredVegetarianKibble.label>
+  <!-- EN: 用植物原料制作动物粗饲料。 -->
+  <Make_CIWSHundredVegetarianKibble.description>用植物原料制作动物粗饲料。</Make_CIWSHundredVegetarianKibble.description>
+  <!-- EN: 正在批量制作素食粗饲料。 -->
+  <Make_CIWSHundredVegetarianKibble.jobString>正在批量制作素食粗饲料。</Make_CIWSHundredVegetarianKibble.jobString>
+  <!-- EN: 制作素食粗饲料 -->
+  <Make_CIWSVegetarianKibble.label>制作素食粗饲料</Make_CIWSVegetarianKibble.label>
+  <!-- EN: 用植物原料制作动物粗饲料。 -->
+  <Make_CIWSVegetarianKibble.description>用植物原料制作动物粗饲料。</Make_CIWSVegetarianKibble.description>
+  <!-- EN: 正在制作素食粗饲料。 -->
+  <Make_CIWSVegetarianKibble.jobString>正在制作素食粗饲料。</Make_CIWSVegetarianKibble.jobString>
+</LanguageData>

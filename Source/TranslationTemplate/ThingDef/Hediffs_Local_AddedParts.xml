@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 语言翻译假牙 -->
+  <CIWSFanyiJiaya.label>语言翻译假牙</CIWSFanyiJiaya.label>
+  <!-- EN: 语言翻译假牙. -->
+  <CIWSFanyiJiaya.description>语言翻译假牙.</CIWSFanyiJiaya.description>
+  <!-- EN: 纳米机器人 -->
+  <CIWSNamiAI.label>纳米机器人</CIWSNamiAI.label>
+  <!-- EN: 纳米级的通用机器人，在血液中工作，能增强宿主的意识，视觉，操作及血液过滤。 -->
+  <CIWSNamiAI.description>纳米级的通用机器人，在血液中工作，能增强宿主的意识，视觉，操作及血液过滤。</CIWSNamiAI.description>
+  <!-- EN: 智能仿生腿 -->
+  <CIWSZhinengTui.label>智能仿生腿</CIWSZhinengTui.label>
+  <!-- EN: 智能仿生腿. -->
+  <CIWSZhinengTui.description>智能仿生腿.</CIWSZhinengTui.description>
+</LanguageData>

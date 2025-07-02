@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Make_CIWSNutrition.label>祈祷应急食物</Make_CIWSNutrition.label>
   <Make_CIWSNutrition.description>祈祷应急食物</Make_CIWSNutrition.description>
@@ -6,18 +6,12 @@
   <MakeFuhefei.label>make compound fertilizer</MakeFuhefei.label>
   <MakeFuhefei.description>The compound fertilizer is made with the corpse.</MakeFuhefei.description>
   <MakeFuhefei.jobString>making.</MakeFuhefei.jobString>
-  <MakeShengMingErHao.label>提炼二号药剂</MakeShengMingErHao.label>
-  <MakeShengMingErHao.description>提炼二号药剂。</MakeShengMingErHao.description>
-  <MakeShengMingErHao.jobString>提炼中。</MakeShengMingErHao.jobString>
   <MakeWuHaoYaoJi.label>提炼五号药剂</MakeWuHaoYaoJi.label>
   <MakeWuHaoYaoJi.description>提炼五号药剂。</MakeWuHaoYaoJi.description>
   <MakeWuHaoYaoJi.jobString>提炼中。</MakeWuHaoYaoJi.jobString>
   <MakeTenBaiYaoFen.label>制作十份白药粉</MakeTenBaiYaoFen.label>
   <MakeTenBaiYaoFen.description>制作十份白药粉。</MakeTenBaiYaoFen.description>
   <MakeTenBaiYaoFen.jobString>制作中。</MakeTenBaiYaoFen.jobString>
-  <AdShengMingErHao.label>灌注二号药剂</AdShengMingErHao.label>
-  <AdShengMingErHao.description>灌注二号药剂。</AdShengMingErHao.description>
-  <AdShengMingErHao.jobString>灌注二号药剂。</AdShengMingErHao.jobString>
   <MakeHai3Yetai.label>refine helium 3 fuel</MakeHai3Yetai.label>
   <MakeHai3Yetai.description>A corpse is used to extract 3 fuel of helium.</MakeHai3Yetai.description>
   <MakeHai3Yetai.jobString>Refining.</MakeHai3Yetai.jobString>
@@ -25,15 +19,9 @@
   <HechengHai3Yetai.description>Synthesis of helium 3 fuel with uranium ore.</HechengHai3Yetai.description>
   <HechengHai3Yetai.jobString>Synthesis.</HechengHai3Yetai.jobString>
   <!-- </RecipeDef> -->
-  <MakeXunlianqi.label>制作神经训练器</MakeXunlianqi.label>
-  <MakeXunlianqi.description>制作神经训练器。</MakeXunlianqi.description>
-  <MakeXunlianqi.jobString>正在制作神经训练器。</MakeXunlianqi.jobString>
   <MakeShimoxi.label>extraction graphene</MakeShimoxi.label>
   <MakeShimoxi.description>extraction graphene.</MakeShimoxi.description>
   <MakeShimoxi.jobString>extraction.</MakeShimoxi.jobString>
-  <MakeShimoxiZhiwu.label>synthetic graphene fabric</MakeShimoxiZhiwu.label>
-  <MakeShimoxiZhiwu.description>Synthetic graphene fabric.</MakeShimoxiZhiwu.description>
-  <MakeShimoxiZhiwu.jobString>Synthetic.</MakeShimoxiZhiwu.jobString>
   <MakeCIWSSandsAny.label>制作建筑沙</MakeCIWSSandsAny.label>
   <MakeCIWSSandsAny.description>用石头粉碎制作建筑用沙。</MakeCIWSSandsAny.description>
   <MakeCIWSSandsAny.jobString>正在制作建筑沙。</MakeCIWSSandsAny.jobString>

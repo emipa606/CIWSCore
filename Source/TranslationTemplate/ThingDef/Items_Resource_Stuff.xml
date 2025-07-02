@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 八号药剂 -->
+  <BaHaoYaoJi.label>八号药剂</BaHaoYaoJi.label>
+  <!-- EN: 你要成为强壮的男性？还是美丽的女性？感谢黑衣☆诡夜的贴图支持。 -->
+  <BaHaoYaoJi.description>你要成为强壮的男性？还是美丽的女性？感谢黑衣☆诡夜的贴图支持。</BaHaoYaoJi.description>
+  <!-- EN: 饮用 -->
+  <BaHaoYaoJi.comps.CompUsable.useLabel>饮用</BaHaoYaoJi.comps.CompUsable.useLabel>
+  <!-- EN: 核电水泥 -->
+  <CIWS_ShuiNi.label>核电水泥</CIWS_ShuiNi.label>
+  <!-- EN: 用于建筑核电站的专用水泥。 -->
+  <CIWS_ShuiNi.description>用于建筑核电站的专用水泥。</CIWS_ShuiNi.description>
+  <CIWS_ShuiNi.stuffProps.stuffAdjective />
+  <!-- EN: 生产许可证（白雪公主的新衣） -->
+  <CIWS_XuKeZheng.label>生产许可证（白雪公主的新衣）</CIWS_XuKeZheng.label>
+  <!-- EN: 授权制作白雪公主的新衣，一衣一号，严格监管，拒绝山寨，从我做起。 -->
+  <CIWS_XuKeZheng.description>授权制作白雪公主的新衣，一衣一号，严格监管，拒绝山寨，从我做起。</CIWS_XuKeZheng.description>
+  <!-- EN: 演讲与口才残页 -->
+  <CIWS_YanJiangYuKouCai.label>演讲与口才残页</CIWS_YanJiangYuKouCai.label>
+  <!-- EN: 演讲与口才残页，在镜子前阅读可以增加交际能力，感谢lolidrop的贴图支持。 -->
+  <CIWS_YanJiangYuKouCai.description>演讲与口才残页，在镜子前阅读可以增加交际能力，感谢lolidrop的贴图支持。</CIWS_YanJiangYuKouCai.description>
+  <!-- EN: 建筑沙 -->
+  <CIWSSands.label>建筑沙</CIWSSands.label>
+  <!-- EN: 制作水泥生料的沙子。 -->
+  <CIWSSands.description>制作水泥生料的沙子。</CIWSSands.description>
+  <!-- EN: 二号药剂 -->
+  <ErHaoYaoJi.label>二号药剂</ErHaoYaoJi.label>
+  <!-- EN: 可以治疗殖民者和动物各种外伤和疾病。 -->
+  <ErHaoYaoJi.description>可以治疗殖民者和动物各种外伤和疾病。</ErHaoYaoJi.description>
+  <!-- EN: 饮用 -->
+  <ErHaoYaoJi.comps.CompUsable.useLabel>饮用</ErHaoYaoJi.comps.CompUsable.useLabel>
+  <!-- EN: 复合肥 -->
+  <Fuhefei.label>复合肥</Fuhefei.label>
+  <!-- EN: 复合肥。 -->
+  <Fuhefei.description>复合肥。</Fuhefei.description>
+  <!-- EN: 氦3燃料罐 -->
+  <Hai3Yetai.label>氦3燃料罐</Hai3Yetai.label>
+  <!-- EN: 新能源，可以用于核聚变燃料。高压危险，难以保存。 -->
+  <Hai3Yetai.description>新能源，可以用于核聚变燃料。高压危险，难以保存。</Hai3Yetai.description>
+  <!-- EN: 三号药剂 -->
+  <SanHaoYaoJi.label>三号药剂</SanHaoYaoJi.label>
+  <!-- EN: 比二号药剂更强力，可以治疗殖民者和动物各种外伤和疾病。 -->
+  <SanHaoYaoJi.description>比二号药剂更强力，可以治疗殖民者和动物各种外伤和疾病。</SanHaoYaoJi.description>
+  <!-- EN: 饮用 -->
+  <SanHaoYaoJi.comps.CompUsable.useLabel>饮用</SanHaoYaoJi.comps.CompUsable.useLabel>
+  <!-- EN: 石墨烯 -->
+  <Shimoxi.label>石墨烯</Shimoxi.label>
+  <!-- EN: 石墨烯粉末，新型材料。 -->
+  <Shimoxi.description>石墨烯粉末，新型材料。</Shimoxi.description>
+  <Shimoxi.stuffProps.stuffAdjective />
+  <!-- EN: 十一号药剂 -->
+  <ShiYiHaoYaoJi.label>十一号药剂</ShiYiHaoYaoJi.label>
+  <!-- EN: 活在最佳年龄。感谢黑衣☆诡夜的贴图支持。 -->
+  <ShiYiHaoYaoJi.description>活在最佳年龄。感谢黑衣☆诡夜的贴图支持。</ShiYiHaoYaoJi.description>
+  <!-- EN: 饮用 -->
+  <ShiYiHaoYaoJi.comps.CompUsable.useLabel>饮用</ShiYiHaoYaoJi.comps.CompUsable.useLabel>
+  <!-- EN: 水泥生料 -->
+  <ShuiNiShengLiao.label>水泥生料</ShuiNiShengLiao.label>
+  <!-- EN: 水泥生料。 -->
+  <ShuiNiShengLiao.description>水泥生料。</ShuiNiShengLiao.description>
+  <!-- EN: 五号药剂 -->
+  <WuHaoYaoJi.label>五号药剂</WuHaoYaoJi.label>
+  <!-- EN: 五号药剂。 -->
+  <WuHaoYaoJi.description>五号药剂。</WuHaoYaoJi.description>
+  <!-- EN: 激活 -->
+  <WuHaoYaoJi.comps.CompUsable.useLabel>激活</WuHaoYaoJi.comps.CompUsable.useLabel>
+</LanguageData>

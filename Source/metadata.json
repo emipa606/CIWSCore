@@ -2,5 +2,16 @@
   "Continued": true,
   "CanAdd": "2",
   "CanRemove": "1",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "LastXmlCleaning": "2025-07-02T23:24:47.7411137+02:00",
+  "SocialImageSet": true,
+  "Patches": true,
+  "Defs": true,
+  "Assemblies": true,
+  "LinesOfCode": 15124.0,
+  "LinesOfXML": 107279.0,
+  "SearchTags": [
+    " futuristic",
+    " technology"
+  ]
 }

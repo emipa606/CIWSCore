@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 683780749
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c941db077fc3e930c306bf1015caabef
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: c941db077fc3e930c306bf1015caabef
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/fuhefei.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/CIWSBaiYaoFen.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Building/Production/CIWSDesk_east.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/WuHaoYaoJi.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/Hai3yetai/Hai3yetai_B.png
+- Assets/Data/Mlie.CIWSCore/Textures/UI/Food2.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/ErHaoYaoJi.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/ShiYiHaoYaoJi.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/SanHaoYaoJi.png
+- Assets/Data/Mlie.CIWSCore/Textures/UI/Food4.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/PlantFoodRaw/CIWSKaiXin.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/ShuiNiShengLiao.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/BaHaoYaoJi.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/Shimoxi.png
+- Assets/Data/Mlie.CIWSCore/Textures/UI/Food1.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/CIWSSands.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/Hai3yetai/Hai3yetai.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/CIWSSanQiFen.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Building/Production/CIWSDesk_north.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/Hai3yetai/Hai3yetai_A.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/CIWS_YanJiangYuKouCai.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/bak2.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/bak3.png
+- Assets/Data/Mlie.CIWSCore/Textures/UI/Food3.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/XuKeZheng.png
+- Assets/Data/Mlie.CIWSCore/Textures/Things/Item/Resource/ShuiNi.png
+Dependencies: []

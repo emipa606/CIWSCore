@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 语言翻译假牙 -->
+  <CIWSFanyiJiaya.label>语言翻译假牙</CIWSFanyiJiaya.label>
+  <!-- EN: 在一颗普通的假牙里面植入了微型语言翻译设备，砍价利器。 -->
+  <CIWSFanyiJiaya.description>在一颗普通的假牙里面植入了微型语言翻译设备，砍价利器。</CIWSFanyiJiaya.description>
+  <!-- EN: 语言翻译假牙 -->
+  <CIWSFanyiJiaya.labelNoun>语言翻译假牙</CIWSFanyiJiaya.labelNoun>
+  <!-- EN: 纳米机器人 -->
+  <CIWSNamiAI.label>纳米机器人</CIWSNamiAI.label>
+  <!-- EN: 纳米机器人. -->
+  <CIWSNamiAI.description>纳米机器人.</CIWSNamiAI.description>
+  <!-- EN: 纳米机器人 -->
+  <CIWSNamiAI.labelNoun>纳米机器人</CIWSNamiAI.labelNoun>
+  <!-- EN: 智能仿生腿 -->
+  <CIWSZhinengTui.label>智能仿生腿</CIWSZhinengTui.label>
+  <!-- EN: 结合人体工学和罗罗公司出品的MB62引擎制作而成，动力强劲。 -->
+  <CIWSZhinengTui.description>结合人体工学和罗罗公司出品的MB62引擎制作而成，动力强劲。</CIWSZhinengTui.description>
+  <!-- EN: 智能仿生腿 -->
+  <CIWSZhinengTui.labelNoun>智能仿生腿</CIWSZhinengTui.labelNoun>
+</LanguageData>

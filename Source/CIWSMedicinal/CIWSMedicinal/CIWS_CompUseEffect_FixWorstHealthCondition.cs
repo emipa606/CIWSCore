@@ -7,7 +7,7 @@ namespace CIWSMedicinal;
 
 public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorstHealthCondition
 {
-    private float HandCoverageAbsWithChildren => ThingDefOf.Human.race.body.GetPartsWithDef(BodyPartDefOf.Hand)
+    private static float HandCoverageAbsWithChildren => ThingDefOf.Human.race.body.GetPartsWithDef(BodyPartDefOf.Hand)
         .First().coverageAbsWithChildren;
 
     public override void DoEffect(Pawn usedBy)
@@ -15,99 +15,99 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         for (var i = 0; i < 5; i++)
         {
             base.DoEffect(usedBy);
-            var hediff = FindLifeThreateningHediff(usedBy);
+            var hediff = findLifeThreateningHediff(usedBy);
             if (hediff != null)
             {
-                Cure(hediff);
+                cure(hediff);
             }
 
             if (HealthUtility.TicksUntilDeathDueToBloodLoss(usedBy) < 2500)
             {
-                var hediff2 = FindMostBleedingHediff(usedBy);
+                var hediff2 = findMostBleedingHediff(usedBy);
                 if (hediff2 != null)
                 {
-                    Cure(hediff2);
+                    cure(hediff2);
                 }
             }
 
             if (usedBy.health.hediffSet.GetBrain() != null)
             {
-                var hediff_Injury =
-                    FindPermanentInjury(usedBy, Gen.YieldSingle(usedBy.health.hediffSet.GetBrain()));
-                if (hediff_Injury != null)
+                var hediffInjury =
+                    findPermanentInjury(usedBy, Gen.YieldSingle(usedBy.health.hediffSet.GetBrain()));
+                if (hediffInjury != null)
                 {
-                    Cure(hediff_Injury);
+                    cure(hediffInjury);
                 }
             }
 
-            var bodyPartRecord = FindBiggestMissingBodyPart(usedBy, HandCoverageAbsWithChildren);
+            var bodyPartRecord = findBiggestMissingBodyPart(usedBy, HandCoverageAbsWithChildren);
             if (bodyPartRecord != null)
             {
-                Cure(bodyPartRecord, usedBy);
+                cure(bodyPartRecord, usedBy);
             }
 
-            var hediff_Injury2 = FindPermanentInjury(usedBy, from x in usedBy.health.hediffSet.GetNotMissingParts()
+            var hediffInjury2 = findPermanentInjury(usedBy, from x in usedBy.health.hediffSet.GetNotMissingParts()
                 where x.def == BodyPartDefOf.Eye
                 select x);
-            if (hediff_Injury2 != null)
+            if (hediffInjury2 != null)
             {
-                Cure(hediff_Injury2);
+                cure(hediffInjury2);
             }
 
             var hediff3 = FindImmunizableHediffWhichCanKill(usedBy);
             if (hediff3 != null)
             {
-                Cure(hediff3);
+                cure(hediff3);
             }
 
-            var hediff4 = FindNonInjuryMiscBadHediff(usedBy, true);
+            var hediff4 = findNonInjuryMiscBadHediff(usedBy, true);
             if (hediff4 != null)
             {
-                Cure(hediff4);
+                cure(hediff4);
             }
 
-            var hediff5 = FindNonInjuryMiscBadHediff(usedBy, false);
+            var hediff5 = findNonInjuryMiscBadHediff(usedBy, false);
             if (hediff5 != null)
             {
-                Cure(hediff5);
+                cure(hediff5);
             }
 
             if (usedBy.health.hediffSet.GetBrain() != null)
             {
-                var hediff_Injury3 = FindInjury(usedBy, Gen.YieldSingle(usedBy.health.hediffSet.GetBrain()));
-                if (hediff_Injury3 != null)
+                var hediffInjury3 = findInjury(usedBy, Gen.YieldSingle(usedBy.health.hediffSet.GetBrain()));
+                if (hediffInjury3 != null)
                 {
-                    Cure(hediff_Injury3);
+                    cure(hediffInjury3);
                 }
             }
 
-            var bodyPartRecord2 = FindBiggestMissingBodyPart(usedBy);
+            var bodyPartRecord2 = findBiggestMissingBodyPart(usedBy);
             if (bodyPartRecord2 != null)
             {
-                Cure(bodyPartRecord2, usedBy);
+                cure(bodyPartRecord2, usedBy);
             }
 
-            var hediff_Addiction = FindAddiction(usedBy);
-            if (hediff_Addiction != null)
+            var hediffAddiction = findAddiction(usedBy);
+            if (hediffAddiction != null)
             {
-                Cure(hediff_Addiction);
+                cure(hediffAddiction);
             }
 
-            var hediff_Injury4 = FindPermanentInjury(usedBy);
-            if (hediff_Injury4 != null)
+            var hediffInjury4 = findPermanentInjury(usedBy);
+            if (hediffInjury4 != null)
             {
-                Cure(hediff_Injury4);
+                cure(hediffInjury4);
             }
 
-            var hediff_Injury5 = FindInjury(usedBy);
-            if (hediff_Injury5 != null)
+            var hediffInjury5 = findInjury(usedBy);
+            if (hediffInjury5 != null)
             {
-                Cure(hediff_Injury5);
+                cure(hediffInjury5);
             }
         }
     }
 
-    private Hediff FindLifeThreateningHediff(Pawn pawn)
+    private static Hediff findLifeThreateningHediff(Pawn pawn)
     {
         Hediff hediff = null;
         var num = -1f;
@@ -139,7 +139,7 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         return hediff;
     }
 
-    private Hediff FindMostBleedingHediff(Pawn pawn)
+    private static Hediff findMostBleedingHediff(Pawn pawn)
     {
         var num = 0f;
         Hediff hediff = null;
@@ -173,7 +173,7 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         {
             if (!hediff1.Visible || !hediff1.def.everCurableByItem ||
                 hediff1.TryGetComp<HediffComp_Immunizable>() == null || hediff1.FullyImmune() ||
-                !CanEverKill(hediff1))
+                !canEverKill(hediff1))
             {
                 continue;
             }
@@ -191,7 +191,7 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         return hediff;
     }
 
-    private Hediff FindNonInjuryMiscBadHediff(Pawn pawn, bool onlyIfCanKill)
+    private Hediff findNonInjuryMiscBadHediff(Pawn pawn, bool onlyIfCanKill)
     {
         Hediff hediff = null;
         var num = -1f;
@@ -200,7 +200,7 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         {
             if (!hediff1.Visible || !hediff1.def.isBad || !hediff1.def.everCurableByItem ||
                 hediff1 is Hediff_Injury || hediff1 is Hediff_MissingPart || hediff1 is Hediff_Addiction ||
-                hediff1 is Hediff_AddedPart || onlyIfCanKill && !CanEverKill(hediff1))
+                hediff1 is Hediff_AddedPart || onlyIfCanKill && !canEverKill(hediff1))
             {
                 continue;
             }
@@ -218,7 +218,7 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         return hediff;
     }
 
-    private BodyPartRecord FindBiggestMissingBodyPart(Pawn pawn, float minCoverage = 0f)
+    private static BodyPartRecord findBiggestMissingBodyPart(Pawn pawn, float minCoverage = 0f)
     {
         BodyPartRecord bodyPartRecord = null;
         foreach (var missingPartsCommonAncestor in pawn.health.hediffSet.GetMissingPartsCommonAncestors())
@@ -235,57 +235,58 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         return bodyPartRecord;
     }
 
-    private Hediff_Addiction FindAddiction(Pawn pawn)
+    private static Hediff_Addiction findAddiction(Pawn pawn)
     {
         var hediffs = pawn.health.hediffSet.hediffs;
         foreach (var hediff in hediffs)
         {
-            if (hediff is Hediff_Addiction { Visible: true } hediff_Addiction &&
-                hediff_Addiction.def.everCurableByItem)
+            if (hediff is Hediff_Addiction { Visible: true } hediffAddiction &&
+                hediffAddiction.def.everCurableByItem)
             {
-                return hediff_Addiction;
+                return hediffAddiction;
             }
         }
 
         return null;
     }
 
-    private Hediff_Injury FindPermanentInjury(Pawn pawn, IEnumerable<BodyPartRecord> allowedBodyParts = null)
+    private static Hediff_Injury findPermanentInjury(Pawn pawn, IEnumerable<BodyPartRecord> allowedBodyParts = null)
     {
-        Hediff_Injury hediff_Injury = null;
+        Hediff_Injury hediffInjury = null;
         var hediffs = pawn.health.hediffSet.hediffs;
         foreach (var hediff in hediffs)
         {
-            if (hediff is Hediff_Injury { Visible: true } hediff_Injury2 && hediff_Injury2.IsPermanent() &&
-                hediff_Injury2.def.everCurableByItem &&
-                (allowedBodyParts == null || allowedBodyParts.Contains(hediff_Injury2.Part)) &&
-                (hediff_Injury == null || hediff_Injury2.Severity > hediff_Injury.Severity))
+            if (hediff is Hediff_Injury { Visible: true } hediffInjury2 && hediffInjury2.IsPermanent() &&
+                hediffInjury2.def.everCurableByItem &&
+                (allowedBodyParts == null || allowedBodyParts.Contains(hediffInjury2.Part)) &&
+                (hediffInjury == null || hediffInjury2.Severity > hediffInjury.Severity))
             {
-                hediff_Injury = hediff_Injury2;
+                hediffInjury = hediffInjury2;
             }
         }
 
-        return hediff_Injury;
+        return hediffInjury;
     }
 
-    private Hediff_Injury FindInjury(Pawn pawn, IEnumerable<BodyPartRecord> allowedBodyParts = null)
+    private static Hediff_Injury findInjury(Pawn pawn, IEnumerable<BodyPartRecord> allowedBodyParts = null)
     {
-        Hediff_Injury hediff_Injury = null;
+        Hediff_Injury hediffInjury = null;
         var hediffs = pawn.health.hediffSet.hediffs;
         foreach (var hediff in hediffs)
         {
-            if (hediff is Hediff_Injury { Visible: true } hediff_Injury2 && hediff_Injury2.def.everCurableByItem &&
-                (allowedBodyParts == null || allowedBodyParts.Contains(hediff_Injury2.Part)) &&
-                (hediff_Injury == null || hediff_Injury2.Severity > hediff_Injury.Severity))
+            var bodyPartRecords = allowedBodyParts as BodyPartRecord[] ?? allowedBodyParts.ToArray();
+            if (hediff is Hediff_Injury { Visible: true } hediffInjury2 && hediffInjury2.def.everCurableByItem &&
+                bodyPartRecords.Contains(hediffInjury2.Part) &&
+                (hediffInjury == null || hediffInjury2.Severity > hediffInjury.Severity))
             {
-                hediff_Injury = hediff_Injury2;
+                hediffInjury = hediffInjury2;
             }
         }
 
-        return hediff_Injury;
+        return hediffInjury;
     }
 
-    private void Cure(Hediff hediff)
+    private static void cure(Hediff hediff)
     {
         var pawn = hediff.pawn;
         pawn.health.RemoveHediff(hediff);
@@ -316,14 +317,14 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
             MessageTypeDefOf.PositiveEvent);
     }
 
-    private void Cure(BodyPartRecord part, Pawn pawn)
+    private static void cure(BodyPartRecord part, Pawn pawn)
     {
         pawn.health.RestorePart(part);
         Messages.Message("MessageBodyPartCuredByItem".Translate(part.LabelCap), pawn,
             MessageTypeDefOf.PositiveEvent);
     }
 
-    private bool CanEverKill(Hediff hediff)
+    private static bool canEverKill(Hediff hediff)
     {
         if (hediff.def.stages == null)
         {
