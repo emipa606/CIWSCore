@@ -250,8 +250,8 @@
         <fleshCorpsesOnly>true</fleshCorpsesOnly>
         <nonDessicatedCorpsesOnly>false</nonDessicatedCorpsesOnly>
       </li>
-      <li>
-        <compClass>CompTargetEffect_Resurrect</compClass>
+      <li Class="CompProperties_TargetEffectResurrect">
+        <withSideEffects>false</withSideEffects>
       </li>
     </comps>
     <thingSetMakerTags>
