@@ -8,10 +8,11 @@
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 15124.0,
-  "LinesOfXML": 107279.0,
+  "LinesOfCode": 15124,
+  "LinesOfXML": 107279,
   "SearchTags": [
     " futuristic",
     " technology"
-  ]
+  ],
+  "CodeBaseSize": 80
 }
