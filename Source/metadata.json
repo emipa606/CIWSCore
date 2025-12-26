@@ -3,13 +3,13 @@
   "CanAdd": "2",
   "CanRemove": "1",
   "PreviewVersion": "1.6",
-  "LastXmlCleaning": "2025-07-02T23:24:47.7411137+02:00",
+  "LastXmlCleaning": "2025-12-26T20:00:00.5614837+01:00",
   "SocialImageSet": true,
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
   "LinesOfCode": 15124,
-  "LinesOfXML": 107279,
+  "LinesOfXML": 107315,
   "SearchTags": [
     " futuristic",
     " technology"

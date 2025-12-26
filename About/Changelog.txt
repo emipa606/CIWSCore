@@ -1,5 +1,8 @@
 # Changelog for CIWSCore
 
+1.6.1 - Fix for the WuHaoYaoJi, thanks bahe1599
+
+
 1.6.0 - Mod updated for 1.6 and passed autotests
 
 
