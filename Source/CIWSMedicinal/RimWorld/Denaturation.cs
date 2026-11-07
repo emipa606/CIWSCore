@@ -5,18 +5,18 @@ namespace CIWSMedicinal;
 
 public class Denaturation : CompUseEffect
 {
-    public override void DoEffect(Pawn pawn)
+    public override void DoEffect(Pawn usedBy)
     {
-        switch (pawn.gender)
+        switch (usedBy.gender)
         {
             case Gender.Male:
-                pawn.gender = Gender.Female;
-                refreshH(pawn);
+                usedBy.gender = Gender.Female;
+                refreshH(usedBy);
                 Messages.Message("美丽的女性！", MessageTypeDefOf.PositiveEvent);
                 break;
             case Gender.Female:
-                pawn.gender = Gender.Male;
-                refreshH(pawn);
+                usedBy.gender = Gender.Male;
+                refreshH(usedBy);
                 Messages.Message("强壮的男性！", MessageTypeDefOf.PositiveEvent);
                 break;
             default:

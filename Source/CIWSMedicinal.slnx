@@ -3,4 +3,41 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="CIWSMedicinal/CIWSMedicinal.csproj" />
+  <Folder Name="/.github/">
+    <File Path="../.github/copilot-instructions.md" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/WorkGiverDefs/">
+    <File Path="../1.7/Defs/WorkGiverDefs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/Hediffs_Local_AddedParts.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Resource_Manufactured.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Resource_RawPlant.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Resource_Stuff.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects_Learn.xml" />
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchTabs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/TraderKindDefs/">
+    <File Path="../1.7/Defs/TraderKindDefs/TraderKinds_Caravan_Outlander.xml" />
+    <File Path="../1.7/Defs/TraderKindDefs/TraderKinds_Orbital_Misc.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/YaoJiWithMaidNukos.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThoughtDefs/">
+    <File Path="../1.7/Defs/ThoughtDefs/Thoughts_Memory_Eating.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_Production.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Food.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Learn.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/Recipes_Production.xml" />
+  </Folder>
 </Solution>

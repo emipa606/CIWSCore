@@ -60,4 +60,4 @@ C. added Caravan: near defense Trading Company
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/CIWSCore?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2606506346) | tags:  futuristic,  technology
+[![Image](https://img.shields.io/github/v/release/emipa606/CIWSCore?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2606506346) | futuristic, technology

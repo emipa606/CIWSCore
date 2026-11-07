@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Hai3Yetai.label>氦3燃料罐</Hai3Yetai.label>
   <Hai3Yetai.description>新能源，可以用於核聚變燃料。高壓危險，難以保存。</Hai3Yetai.description>
@@ -6,10 +6,8 @@
   <Fuhefei.description>複合肥。</Fuhefei.description>
   <ErHaoYaoJi.label>二號藥劑</ErHaoYaoJi.label>
   <ErHaoYaoJi.description>可以治療殖民者和動物各種外傷和疾病。</ErHaoYaoJi.description>
-  <ErHaoYaoJi.comps.1.useLabel>飲用</ErHaoYaoJi.comps.1.useLabel>
   <ShiYiHaoYaoJi.label>十一號藥劑</ShiYiHaoYaoJi.label>
   <ShiYiHaoYaoJi.description>活在最佳年齡。感謝黑衣☆詭夜的貼圖支持。</ShiYiHaoYaoJi.description>
-  <ShiYiHaoYaoJi.comps.1.useLabel>飲用</ShiYiHaoYaoJi.comps.1.useLabel>
   <!-- <ThingDef ParentName="ResourceBase">
 		<defName>BaHaoYaoJi</defName>
 		<label>八號藥劑</label>
@@ -55,7 +53,6 @@
 	</ThingDef> -->
   <WuHaoYaoJi.label>五號藥劑</WuHaoYaoJi.label>
   <WuHaoYaoJi.description>五號藥劑。</WuHaoYaoJi.description>
-  <WuHaoYaoJi.comps.1.useLabel>激活</WuHaoYaoJi.comps.1.useLabel>
   <CIWSSands.label>建築沙</CIWSSands.label>
   <CIWSSands.description>製作水泥生料的沙子。</CIWSSands.description>
   <ShuiNiShengLiao.label>水泥生料</ShuiNiShengLiao.label>
@@ -70,9 +67,6 @@
   <Shimoxi.label>石墨烯</Shimoxi.label>
   <Shimoxi.description>石墨烯粉末，新型材料。</Shimoxi.description>
   <Shimoxi.stuffProps.stuffAdjective>石墨烯</Shimoxi.stuffProps.stuffAdjective>
-  <ShimoxiZhiwu.label>石墨烯織物</ShimoxiZhiwu.label>
-  <ShimoxiZhiwu.description>石墨烯粉末製作的新型織物。</ShimoxiZhiwu.description>
-  <ShimoxiZhiwu.stuffProps.stuffAdjective>石墨烯織物</ShimoxiZhiwu.stuffProps.stuffAdjective>
   <!--<ShengMingErHao.label>二號藥劑</ShengMingErHao.label>-->
   <!--<ShengMingErHao.description>二號藥劑。</ShengMingErHao.description>-->
   <!--<ShengMingErHao.comps.1.useLabel>飲用</ShengMingErHao.comps.1.useLabel>-->

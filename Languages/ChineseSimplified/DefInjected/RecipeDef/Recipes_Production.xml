@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- <RecipeDef>
 		<defName>Make_CIWSNutrition</defName>
@@ -93,9 +93,6 @@
   <MakeShimoxi.label>提炼石墨烯</MakeShimoxi.label>
   <MakeShimoxi.description>提炼石墨烯。</MakeShimoxi.description>
   <MakeShimoxi.jobString>正在提炼石墨烯。</MakeShimoxi.jobString>
-  <MakeShimoxiZhiwu.label>合成石墨烯织物</MakeShimoxiZhiwu.label>
-  <MakeShimoxiZhiwu.description>合成石墨烯织物。</MakeShimoxiZhiwu.description>
-  <MakeShimoxiZhiwu.jobString>正在合成石墨烯织物。</MakeShimoxiZhiwu.jobString>
   <MakeCIWSSandsAny.label>制作建筑沙</MakeCIWSSandsAny.label>
   <MakeCIWSSandsAny.description>用石头粉碎制作建筑用沙。</MakeCIWSSandsAny.description>
   <MakeCIWSSandsAny.jobString>正在制作建筑沙。</MakeCIWSSandsAny.jobString>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <Hai3Yetai.label>Helium 3 fuel tank</Hai3Yetai.label>
   <Hai3Yetai.description>New energy can be used for nuclear fusion fuel. High pressure is dangerous and difficult to preserve.</Hai3Yetai.description>
@@ -6,19 +6,14 @@
   <Fuhefei.description>compound fertilizer.</Fuhefei.description>
   <ErHaoYaoJi.label>Pharmacy No. 1</ErHaoYaoJi.label>
   <ErHaoYaoJi.description>Potion No. 1.</ErHaoYaoJi.description>
-  <ErHaoYaoJi.comps.1.useLabel>Drink</ErHaoYaoJi.comps.1.useLabel>
   <SanHaoYaoJi.label>Pharmacy No. 2</SanHaoYaoJi.label>
   <SanHaoYaoJi.description>Potion No. 2.</SanHaoYaoJi.description>
-  <SanHaoYaoJi.comps.1.useLabel>Drink</SanHaoYaoJi.comps.1.useLabel>
   <ShiYiHaoYaoJi.label>Pharmacy No. 3</ShiYiHaoYaoJi.label>
   <ShiYiHaoYaoJi.description>Potion No. 3.</ShiYiHaoYaoJi.description>
-  <ShiYiHaoYaoJi.comps.1.useLabel>Drink</ShiYiHaoYaoJi.comps.1.useLabel>
   <BaHaoYaoJi.label>Pharmacy No. 4</BaHaoYaoJi.label>
   <BaHaoYaoJi.description>Potion No. 4.</BaHaoYaoJi.description>
-  <BaHaoYaoJi.comps.1.useLabel>Drink</BaHaoYaoJi.comps.1.useLabel>
   <WuHaoYaoJi.label>Pharmacy No. 5</WuHaoYaoJi.label>
   <WuHaoYaoJi.description>Potion No. 5.</WuHaoYaoJi.description>
-  <WuHaoYaoJi.comps.1.useLabel>Drink</WuHaoYaoJi.comps.1.useLabel>
   <CIWSSands.label>Building sand</CIWSSands.label>
   <CIWSSands.description>A sand made of cement raw material.</CIWSSands.description>
   <ShuiNiShengLiao.label>cement raw meal</ShuiNiShengLiao.label>

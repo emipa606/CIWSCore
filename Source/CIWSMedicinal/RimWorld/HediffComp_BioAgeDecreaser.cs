@@ -1,4 +1,3 @@
-using System.Linq;
 using Verse;
 
 namespace RimWorld;
@@ -13,7 +12,7 @@ public class HediffComp_BioAgeDecreaser : HediffComp
     public override void CompPostMake()
     {
         base.CompPostMake();
-        adultAge = Pawn.def.race.lifeStageAges.Last().minAge;
+        adultAge = Pawn.def.race.lifeStageAges[^1].minAge;
     }
 
     public override void CompPostTick(ref float severityAdjustment)
@@ -38,7 +37,7 @@ public class HediffComp_BioAgeDecreaser : HediffComp
         Scribe_Values.Look(ref adultAge, "adultAge");
         if (Scribe.mode == LoadSaveMode.PostLoadInit && adultAge < 0f)
         {
-            adultAge = Pawn.def.race.lifeStageAges.Last().minAge;
+            adultAge = Pawn.def.race.lifeStageAges[^1].minAge;
         }
     }
 }

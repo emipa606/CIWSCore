@@ -7,8 +7,8 @@ namespace CIWSMedicinal;
 
 public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorstHealthCondition
 {
-    private static float HandCoverageAbsWithChildren => ThingDefOf.Human.race.body.GetPartsWithDef(BodyPartDefOf.Hand)
-        .First().coverageAbsWithChildren;
+    private static float HandCoverageAbsWithChildren =>
+        ThingDefOf.Human.race.body.GetPartsWithDef(BodyPartDefOf.Hand)[0].coverageAbsWithChildren;
 
     public override void DoEffect(Pawn usedBy)
     {
@@ -164,7 +164,7 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         return hediff;
     }
 
-    private Hediff FindImmunizableHediffWhichCanKill(Pawn pawn)
+    private static Hediff FindImmunizableHediffWhichCanKill(Pawn pawn)
     {
         Hediff hediff = null;
         var num = -1f;
@@ -191,7 +191,7 @@ public class CIWS_CompUseEffect_FixWorstHealthCondition : CompUseEffect_FixWorst
         return hediff;
     }
 
-    private Hediff findNonInjuryMiscBadHediff(Pawn pawn, bool onlyIfCanKill)
+    private static Hediff findNonInjuryMiscBadHediff(Pawn pawn, bool onlyIfCanKill)
     {
         Hediff hediff = null;
         var num = -1f;
